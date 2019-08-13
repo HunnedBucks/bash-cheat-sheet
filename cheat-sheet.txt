@@ -2,3 +2,7 @@
 	(keyboard shortcut: Ctrl+C ) # https://stackoverflow.com/questions/4183665/can-i-abort-the-current-running-bash-command
 • create new file and write contents in one line: from github setup instructions for new repo under heading '...or create a new repository on the command line'
 	$ echo "contents of file between quotes" >> filename.fileextension
+• delete a directory from working directory
+	$ rm -r directory_name
+• create a new directory inside the working directory and make it the new working directory
+	$ mkdir New_Directory_Name && cd $_ 
