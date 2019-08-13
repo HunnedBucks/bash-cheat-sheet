@@ -1,3 +1,4 @@
 • quit current process but keep terminal open:
 	(keyboard shortcut: Ctrl+C ) # https://stackoverflow.com/questions/4183665/can-i-abort-the-current-running-bash-command
-
+• create new file and write contents in one line: from github setup instructions for new repo under heading '...or create a new repository on the command line'
+	$ echo "contents of file between quotes" >> filename.fileextension
